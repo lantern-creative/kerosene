@@ -2,10 +2,19 @@
   "name": "starter-node-angular",
   "main": "server.js",
   "dependencies": {
-    "express" : "~4.5.1",
-	"mongoose" : "~3.8.0",
-	"body-parser" : "~1.4.2",
-	"method-override" : "~2.0.2"
+    "angular": "^1.4.5",
+    "angularfire": "^1.1.2",
+    "body-parser": "~1.4.2",
+    "express": "~4.5.1",
+    "firebase": "^2.2.9",
+    "gulp": "^3.9.0",
+    "method-override": "~2.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-watch": "^4.3.5"
   }
 }
-

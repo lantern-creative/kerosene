@@ -1,1 +1,9 @@
-angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'NerdCtrl', 'NerdService', 'GeekCtrl', 'GeekService']);
+angular.module('keroseneApp', [
+	'chart.js',
+	'firebase',
+	'ngRoute',
+	 'appRoutes', 
+	 'MainCtrl', 
+	 'SecondCtrl', 
+	 'SecondService',
+	 ]);
