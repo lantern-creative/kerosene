@@ -1,0 +1,16 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+body {
+	margin-top:30px;
+}
+
+.ag-column {
+	border-right:1px solid rgba(black,0.2);
+	}
